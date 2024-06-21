@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: none;
+    overflow-x: hidden;
+}
+ .cajas{
+    position: absolute;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    border: 0;
+    margin: 0 none;
+}
+.caja1{
+    position: relative;
+    background-color: rgb(235, 174, 95);
+    padding: 20px;
+    width: 100vw;
+    height: 150px;
+    margin: 0 none;
+    border: 0 none;
+}
+.caja2{
+    position: relative;
+    background-color: rgb(8, 146, 31);
+    padding: 20px;
+    width: 100vw;
+    height: 200px;
+    margin: 0 none;
+    border: 0 none;
+}
+.caja3{
+    position: relative;
+    background-color: rgb(160, 20, 85);
+    width: 90%;
+    height: 120px;
+    padding: 20px;
+    margin: 1%;
+    left: 20%;
+    margin-left: 1% ;
+}
+.caja4{
+    position: relative;
+    background-color: rgb(160, 20, 85);
+    width: 90%;
+    height: 120px;
+    padding: 20px;
+    margin: 1%;
+    left: 20%;
+    margin-left: 1% ;
+    
+}
+.caja5{
+    position: relative;
+    background-color: rgb(160, 20, 85);
+    width: 90%;
+    height: 120px;
+    padding: 20px;
+    margin: 1%;
+    left: 20%;
+    margin-left: 1% ;
+}
+.caja6{
+    position: relative;
+    background-color: rgb(160, 20, 85);
+    width: 90%;
+    height: 120px;
+    padding: 20px;
+    margin: 1%;
+    left: 20%;
+    margin-left: 1% ;
+}
+.caja7{
+    position: relative;
+    background-color: rgb(240, 0, 0);
+    padding: 20px;
+    margin: 1%;
+    width: 80%;
+    height: 120px;
+    left: 60px;
+    margin-right: 1%;
+}

@@ -1,0 +1,82 @@
+*{
+    overflow-x: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 3px;
+    box-sizing: border-box;
+    z-index: 1;
+    padding: 0px;
+}
+body{
+   background-color: whi;
+}
+.container{
+    position: static;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+h1{
+    font-size: 40px;
+    color: rgb(243, 195, 124);
+    text-shadow: 5px 4px 5px rgb(0, 0, 0) ;  
+}
+h2{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    text-shadow: 5px 4px 5px rgb(80, 80, 80) ;   
+}
+.p1{
+    font-size: 20px;
+    font-stretch:expanded;
+    color: rgb(0, 0, 0);
+}
+.p2{
+    font-size: 20px;
+    font-stretch:expanded;
+    color: rgb(16, 177, 51);
+}
+.img{
+    position: static;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 2;
+    /*float: ;*/
+}
+.cajas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    border: 0;
+    margin: 0 none;
+}
+.caja{
+    background-color: rgb(243, 195, 124);
+    width: 88%;
+    margin: 0 none;
+    border-radius: 40px;
+    padding: 0 px;
+}
+.caja-1{
+    height: 35px;
+}
+.caja-2{
+    height: 35px;
+}
+.caja-3{
+    height: 35px;
+}
+.caja-4{
+    height: 35px;
+}
