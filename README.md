@@ -2,14 +2,14 @@
 
 PULL_REQUEST_TEMPLATE
 # Tecnología
-- [/] HTML
-- [/] CSS3
+- [1] HTML
+- [1] CSS3
 - [ ] docs
 
 # Seleccione el tipo de actividad
 - [ ] Feature
 - [ ] Changes
-- [/] Hotfix
+- [1] Hotfix
 - [ ] Refactor
 - [ ] Performance
 - [ ] Testing
