@@ -4,7 +4,7 @@
     margin: 3px;
     box-sizing: border-box;
     z-index: 1;
-    padding: 0px;
+    padding: 5px;
 }
 body{
    background-color: white;
@@ -24,8 +24,9 @@ body{
 .line {
     width: 100px;
     height: 2px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(243, 195, 124);;
     margin: 10px auto;
+    padding: 2px;
   }
 h1{
     font-size: 40px;
@@ -47,42 +48,22 @@ h2{
     font-stretch:expanded;
     color: rgb(16, 177, 51);
 }
-.img{
-    position: static;
-    justify-content: center;
-    margin: 0% ;
-    margin-bottom: 20px;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 1;
-}
-/*.img{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    z-index: 2;
-  }*/
-  
 .cajas{
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 100px;
-    text-align: center;
     color: white;
-    padding: 0;
+    padding: 0px;
     border: 0;
-    margin: 0 none;
+    margin-top: 3%;
+    width: 90vw;
 }
 .caja{
     background-color: rgb(243, 195, 124);
     width: 80%;
-    margin: 0 none;
-    border-radius: 40px;
-    padding: 0 px;
+    padding: px;
 }
 .caja-1{
     height: 35px;
@@ -95,4 +76,46 @@ h2{
 }
 .caja-4{
     height: 35px;
+}
+
+.img{
+    position: relative;
+    justify-content: center;
+    margin: 0% ;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+@media (max-width: 768px) { 
+    .content {
+        font-size: 16px; 
+    }
+
+    h1 {
+        font-size: 2em; 
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .caja-1, .caja-2, .caja-3, .caja-4 {
+        width: 100%; /
+    }
+}
+
+@media (max-width: 480px) { 
+    .content {
+        font-size: 14px; 
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
 }
